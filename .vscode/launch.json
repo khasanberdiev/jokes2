@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-JokesApplication<jokes>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.jokes.JokesApplication",
+            "projectName": "jokes",
+            "args": ""
+        }
+    ]
+}
