@@ -11,6 +11,8 @@ public class JokesApplication {
 		ConfigurableApplicationContext context=SpringApplication.run(JokesApplication.class, args);
 		MusicPlayer a=context.getBean(MusicPlayer.class);
 		a.playMusic();
+		a.setName("name");
+		System.out.println(a.getName());
 		System.out.println("00000000000000000000000000000");
 		context.close();
 
